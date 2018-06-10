@@ -16,6 +16,7 @@ private Validator valid = new Validator();
     public void test2(){
         assertTrue(valid.validate("qwertewewewewewe"));
     }
+    @Test
     public void test3(){
         assertFalse(valid.validate("password"));
     }
